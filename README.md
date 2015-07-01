@@ -1,2 +1,2 @@
 # mybb-ncode
-Mybb Ncode Eklentisi
+Mybb forumunuzdaki resimleri ncode yardımıyla boyutladırır.
