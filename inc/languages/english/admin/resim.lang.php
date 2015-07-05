@@ -4,32 +4,34 @@
 			@Emre Karakaya
 			@www.emrekarakaya.com.tr
 */
-$l['eklentiad'] = 'Mybb Ncode Resim Boyutlandırıcı';
-$l['eklentiac'] = "Mybb konularınıza eklenen resimleri temalarınızı bozmadan Ncode yardımıyla küçültür";
-$l['nmodetit'] = "Küçültülmüş Resimler Nasıl Büyütülsün?";
-$l['nmodedes'] = "Eklenti kullanarak küçültülmüş resimleriniz nasıl orjinal boyuta döndürülsün";
-$l['enlarge'] = "Aynı Sayfada";
-$l['samewindow'] = "Resime Yönlendir";
-$l['newwindow'] = "Yeni Pencerede Aç";
+$l['eklentiad'] = 'Mybb Ncode Image Resizer';
+$l['eklentiac'] = "NCode shrink with the pictures on your site.";
+$l['nmodetit'] = "Photos How are you returned to the Original Size?";
+$l['nmodedes'] = "How to convert original size pictures?";
+$l['enlarge'] = "On The Same Page";
+$l['samewindow'] = "Redirect Image";
+$l['newwindow'] = "Open In New Window";
 $l['ncodebox'] = "Ncodebox";
-$l['ntematit'] = "Ncode Temanız";
-$l['ntemades'] = "Ncode forum da hangi tema ile gözüksün?";
-$l['xpserkan'] = "Xpserkan 1.8 Yeşil Teması";
-$l['ncode16'] = "Ncode 1.6 Teması";
-$l['ncodewp'] = "Ncode Wp Teması";
-$l['mytitle1'] = "Ncode Resim Boyutlandırma";
+$l['ntematit'] = "Ncode Your Theme";
+$l['ntemades'] = "NCode forum which make it look with the theme?";
+$l['xpserkan'] = "Xpserkan 1.8 Green Theme";
+$l['ncode16'] = "NCode 1.6 Theme";
+$l['ncodewp'] = "Ncode Wp Theme";
+/*
+$l['mytitle1'] = "Mybb Ncode Image Resizer";
 $l['mydes1'] = "Sizin Resim Boyutlandırma Kodunuz";
 $l['mytitle2'] = "Ncode Resim Sabitleme";
 $l['mydes2'] = "Sizin Resim Sabitleme Kodunuz";
-$l['aygrtitle'] = "Mybb Ncode Resim Boyutlandırma Ayarları";
-$l['aygrdes'] = "Mybb Ncode Resim Boyutlandırma Ayarlarını Yapabilirsiniz.";
-$l['ngentit'] = "Eklentinin Boyutlandırmasını İstediğiniz Minimum Genişlik";
-$l['ngendes'] = "Eklenti sizin belirlediğiniz genişlikten geniş resimleri otomatik olarak boyutlandıracaktır.<b>Devre Dışı</b> bırakmak için 0 olarak giriniz";
-$l['nyuktit'] = "Eklentinin Boyutlandırmasını İstediğiniz Minumum Yükseklik";
-$l['nyukdes'] = "Eklenti sizin belirlediğiniz yükseklikten yüksek resimleri otomatik olarak boyutlandıracaktır.<b>Devre Dışı</b> bırakmak için 0 olarak giriniz";
-$l['nbuy'] = "Resmi Orjinal Boyutunda Görüntülemek İçin Tıkla.";
-$l['norj'] = "Bu resim yeniden boyutlandırılmıştır. Resmin orjinal halini görmek için tıklayınız.";
-$l['norjj'] = "Bu resim yeniden boyutlandırılmıştır. Resmin orjinal halini görmek için tıklayınız.";
-$l['nkuc'] = "Resmin küçük haline geri dönmek için tıklayınız.";
+*/
+$l['aygrtitle'] = "Mybb Ncode Image Sizing Settings";
+$l['aygrdes'] = "You can Mybb nCode Image Resize Settings.";
+$l['ngentit'] = "Minimum Width plug-ins that you want to resize";
+$l['ngendes'] = "Attachments large photos that you specify the width will resize automatically.<b>Enter 0 to disable the circuit</b>";
+$l['nyuktit'] = "Minimum height plug-ins that you want to resize";
+$l['nyukdes'] = "Attachments large photos that you specify the height will resize automatically.<b>Enter 0 to disable the circuit</b>";
+$l['nbuy'] = "Click this bar to view the full image.";
+$l['norj'] = "This image has been resized. Click this bar to view the full image.";
+$l['norjj'] = "This image has been resized. Click this bar to view the full image.";
+$l['nkuc'] = "Click this bar to view the small image.";
 ?>
 	
