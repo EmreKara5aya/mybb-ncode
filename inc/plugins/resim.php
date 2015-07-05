@@ -62,7 +62,7 @@ $mykod1 = array_map(array($db, 'escape_string'), array(
         'description'  => $lang->nmodedes,
         'optionscode'  => "select\nenlarge=$lang->enlarge\nsamewindow=$lang->samewindow\nnewwindow=$lang->newwindow\nncodebox=$lang->ncodebox",
         'value'        => 'enlarge',
-        'disporder'    => '0',
+        'disporder'    => '1',
         'gid'          => intval( $ayar_grup_id )
     );
     $db->insert_query("settings", $ayar1);
@@ -72,7 +72,7 @@ $mykod1 = array_map(array($db, 'escape_string'), array(
         'description'  => $lang->ntemades,
         'optionscode'  => "select\nxpserkan=$lang->xpserkan\nncode16=$lang->ncode16\nncodewp=$lang->ncodewp",
         'value'        => 'xpserkan',
-        'disporder'    => '0',
+        'disporder'    => '2',
         'gid'          => intval( $ayar_grup_id )
     );
     $db->insert_query("settings", $ayar2);
@@ -82,7 +82,7 @@ $mykod1 = array_map(array($db, 'escape_string'), array(
         'description'  => $lang->ngendes,
         'optionscode'  => 'text',
         'value'        => '500',
-        'disporder'    => '0',
+        'disporder'    => '3',
         'gid'          => intval( $ayar_grup_id )
     );
     $db->insert_query("settings", $ayar3);
@@ -92,7 +92,7 @@ $mykod1 = array_map(array($db, 'escape_string'), array(
         'description'  => $lang->nyukdes,
         'optionscode'  => 'text',
         'value'        => '0',
-        'disporder'    => '0',
+        'disporder'    => '4',
         'gid'          => intval( $ayar_grup_id )
     );
     $db->insert_query("settings", $ayar4);
