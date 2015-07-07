@@ -34,4 +34,3 @@ $l['norj'] = "This image has been resized. Click this bar to view the full image
 $l['norjj'] = "This image has been resized. Click this bar to view the full image.";
 $l['nkuc'] = "Click this bar to view the small image.";
 ?>
-	

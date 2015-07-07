@@ -32,4 +32,3 @@ $l['norj'] = "Bu resim yeniden boyutlandırılmıştır. Resmin orjinal halini g
 $l['norjj'] = "Bu resim yeniden boyutlandırılmıştır. Resmin orjinal halini görmek için tıklayınız.";
 $l['nkuc'] = "Resmin küçük haline geri dönmek için tıklayınız.";
 ?>
-	
