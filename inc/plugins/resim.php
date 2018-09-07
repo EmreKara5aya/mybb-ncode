@@ -7,6 +7,7 @@ if (!defined("IN_MYBB")) {
 	die("Direct initialization of this file is not allowed.<br /><br />Please make sure IN_MYBB is defined.<br />Mybb Dışı Bağlanmak Yasaktır.");
 } // Mybb Dışı Bağlantıları Engelliyoruz
 $plugins->add_hook("global_start", "resim_degisken");
+$plugins->add_hook('parse_message_end', 'resim_kod');
 function resim_info()
 {
     global $lang;
@@ -138,5 +139,9 @@ NcodeBoxBilgi['ncode_imageresizer_warning_no_filesize'] = '{$lang->norj}';
 NcodeBoxBilgi['ncode_imageresizer_warning_fullsize'] = '{$lang->nkuc}';
 //-->
 </script>";
+}
+function resim_kod($message)
+{
+    return str_replace("class=\"mycode_img\"","class=\"mycode_img\" onload=\"NcodeImageResizer.createOn(this);\"",$message);
 }
 ?>
