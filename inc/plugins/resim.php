@@ -19,7 +19,7 @@ function resim_info()
 	'website' => "http://www.mybb.com.tr" , // Eklentinin Websitesi
 	'author' => "Emre Karakaya" , // Eklenti Yapımcısı
 	'authorsite' => "http://www.emrekarakaya.com.tr" , // Eklenti Yapımcısının Sitesi
-	'version' => "1.0" , // Eklenti Versiyonu
+	'version' => "1.1" , // Eklenti Versiyonu
 	'guid' => "" , // Eklenti için Verilen kod.Detayları Videoda
 	'compatibility' => "18*", // Eklenti uyumlu olduğu Mybb Sürümleri
 );
