@@ -19,7 +19,7 @@ function resim_info()
 	'website' => "http://www.mybb.com.tr" , // Eklentinin Websitesi
 	'author' => "Emre Karakaya" , // Eklenti Yapımcısı
 	'authorsite' => "http://www.emrekarakaya.com.tr" , // Eklenti Yapımcısının Sitesi
-	'version' => "1.1" , // Eklenti Versiyonu
+	'version' => "1.2" , // Eklenti Versiyonu
 	'guid' => "" , // Eklenti için Verilen kod.Detayları Videoda
 	'compatibility' => "18*", // Eklenti uyumlu olduğu Mybb Sürümleri
 );
@@ -34,7 +34,6 @@ $mykod1 = array_map(array($db, 'escape_string'), array(
     "regex"           => "\[img\](.*?)\[/img\]",
     "replacement"     => "<img src=\"$1\" border=\"0\" alt=\"resim\" onload=\"NcodeImageResizer.createOn(this);\" />",
     "active"           => "1",
-    "parseorder"           => "",
     ));
     $db->insert_query("mycode", $mykod1);
 	
@@ -44,7 +43,6 @@ $mykod1 = array_map(array($db, 'escape_string'), array(
     "regex"           => "\[align=(.*?)\](.*?)\[/align\]",
     "replacement"     => "<div align=\"$1\">$2</div>",
     "active"           => "1",
-    "parseorder"           => "",
     ));
     $db->insert_query("mycode", $mykod2);
 	$cache->update_mycode();
